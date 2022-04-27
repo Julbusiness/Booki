@@ -1,4 +1,4 @@
-/******************* Général **********************/
+/**************************** General *********************************/
 
 * {
   margin: 0;
@@ -10,34 +10,14 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-ul, nav {
-  list-style: none;
-}
+/**************************** Header *********************************/
 
-a{
-  text-decoration: none;
-  color: #333;
-  cursor: pointer;
-  padding: 25px 15px;
-  font-weight: 400;
-}
-
-a:hover {
-  color: #0065fc;
-  border-top: 2px solid #0065fc;
-}
-
-/******************* Header ********************/
 header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 50px;
+  padding: 35px 40px;
 }
 
 header .logo img{
@@ -46,16 +26,36 @@ header .logo img{
   margin: 0 auto;
 }
 
-header nav {
+header nav ul {
   display: flex;
 }
 
-header nav li {
+header nav ul li {
   margin: 0 15px;
   font-size: 15px;
 }
 
-/******************* Media queries tablette *****************/
+ul, nav {
+  list-style: none;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  padding: 25px 15px;
+  font-weight: 400;
+}
+
+header nav ul li a:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+}
+/**************************** Section Recherche *********************************/
+
+
+
+/**************************** Media queries Tablette *********************************/
 
 @media (max-width: 992px){
   header{
@@ -68,22 +68,22 @@ header nav li {
     align-items: center;
     justify-content: center;
   }
-  a:hover {
+  header nav ul li a:hover {
     color: #0065fc;
     border-top: none;
     border-bottom: 3px solid #0065fc;
   }
 }
 
-/**************** Media queries Mobile *****************/
+/**************************** Media queries Mobile *********************************/
 
 @media (max-width: 768px){
 
-  header nav li {
+  header nav ul li {
     margin: 0;
     width: 160px;
   }
-  a {
+  header nav ul li a {
     border-bottom: 3px solid lightgrey;
     display: block;
     text-align: center;
