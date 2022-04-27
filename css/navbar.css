@@ -1,0 +1,57 @@
+/******************* Général *************************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/******************* Logo *************************/
+
+.logo {
+  padding: 30px 60px;
+}
+
+.logo img {
+  width: 80%;
+  height: 80%;
+}
+
+/******************* Navigation *************************/
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 60px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 30px;
+  color: #333;
+}
+
+/******************* onglet actif *************************/
+#link-1 {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+}
+ /* on aurait pu positionner ces propriétés sur l'onglet actif en JS */
+
+
