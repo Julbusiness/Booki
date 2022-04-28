@@ -51,7 +51,121 @@ header nav ul li a:hover {
   color: #0065fc;
   border-top: 2px solid #0065fc;
 }
-/**************************** Section Recherche *********************************/
+/******************************** Section Recherche *********************************/
+
+.section-recherche {
+  padding: 0px 40px;
+  /* background: grey; */
+  width: 100%;
+  height: 200px;
+}
+
+.section-recherche h2 {
+  padding: 0px 0px 5px;
+  font-size: 25px;
+}
+
+.section-recherche p {
+  padding: 0px 0px 15px;
+  font-size: 18px;
+}
+
+form {
+  width: 350px;
+  height: 35px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 15px 7px;
+  border: 1px solid #f2f2f2;
+}
+
+form label i {
+  padding: 11px 15px;
+  background: #f2f2f2;
+  border-radius: 10px 0 0 10px;
+  font-size: 15px;
+}
+
+form input {
+  height: 35px;
+  border: none;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+form button {
+  background: #0065fc;
+  padding: 8px;
+  border-radius: 0 10px 10px 0;
+  font-size: 15px;
+  border: none;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+.filtres {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;  
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.filtres h3 {
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.filtres button {
+  margin-right: 15px;
+  border: 1px solid #f2f2f2;
+  background: transparent;
+  border-radius: 25px;
+  padding-right: 10px;
+}
+
+.filtres span {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+.filtres span i {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  background: #deebff;
+  margin-right: 5px;
+  font-size: 14px;
+  border-radius: 50%;
+  color: #0065fc;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info span {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.info i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #f2f2f2;
+  font-size: 10px;
+}
 
 
 
