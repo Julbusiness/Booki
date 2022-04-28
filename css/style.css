@@ -1,327 +1,321 @@
 /**************************** General *********************************/
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 /**************************** Header *********************************/
 
 header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 35px 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 40px;
 }
 
-header .logo img{
-  width: 80px;
-  height: 40px;
-  margin: 0 auto;
+header .logo img {
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
 }
 
 header nav ul {
-  display: flex;
+	display: flex;
 }
 
 header nav ul li {
-  margin: 0 15px;
-  font-size: 15px;
+	margin: 0 15px;
+	font-size: 15px;
 }
 
-ul, nav {
-  list-style: none;
+ul,
+nav {
+	list-style: none;
 }
 
-header nav ul li a{
-  text-decoration: none;
-  color: #333;
-  cursor: pointer;
-  padding: 25px 15px;
-  font-weight: 400;
+header nav ul li a {
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+	padding: 25px 15px;
+	font-weight: 400;
 }
 
 header nav ul li a:hover {
-  color: #0065fc;
-  border-top: 2px solid #0065fc;
+	color: #0065fc;
+	border-top: 2px solid #0065fc;
 }
 /******************************** Section Recherche *********************************/
 
 .section-recherche {
-  padding: 0px 40px;
-  width: 100%;
-  height: 200px;
+	padding: 0px 40px;
+	width: 100%;
+	height: 200px;
 }
 
 .section-recherche h2 {
-  margin-bottom: 5px;
-  font-size: 15px;
-  font-weight: 700;
+	margin-bottom: 5px;
+	font-size: 15px;
+	font-weight: 700;
 }
 
 .section-recherche p {
-  margin-bottom: 20px;
-  font-size: 12px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	font-weight: 300;
 }
 
 form {
-  width: 250px;
-  height: 35px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  border: 1px solid #f2f2f2;
+	width: 250px;
+	height: 35px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	border: 1px solid #f2f2f2;
 }
 
 form label i {
-  padding: 10px 15px;
-  background: #f2f2f2;
-  border-radius: 10px 0 0 10px;
-  font-size: 15px;
+	padding: 10px 15px;
+	background: #f2f2f2;
+	border-radius: 10px 0 0 10px;
+	font-size: 15px;
 }
 
 form input {
-  height: 35px;
-  border: none;
-  padding-left: 10px;
-  font-weight: 600;
-  font-size: 15px;
+	height: 35px;
+	border: none;
+	padding-left: 10px;
+	font-weight: 600;
+	font-size: 15px;
 }
 
 form button {
-  background: #0065fc;
-  padding: 8px;
-  border-radius: 0 10px 10px 0;
-  font-size: 15px;
-  border: none;
-  color: #f1f1f1;
-  font-weight: 600;
+	background: #0065fc;
+	padding: 8px;
+	border-radius: 0 10px 10px 0;
+	font-size: 15px;
+	border: none;
+	color: #f1f1f1;
+	font-weight: 600;
 }
 
 #search-mobile {
-  display: none;
+	display: none;
 }
 
 .filtres {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 750px;  
-  height: 40px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 750px;
+	height: 40px;
+	flex-wrap: wrap;
 }
 
 .filtres h3 {
-  padding-right: 10px;
-  font-size: 15px;
-  font-weight: bold;
+	padding-right: 10px;
+	font-size: 15px;
+	font-weight: bold;
 }
 
 .filtres button {
-  margin-right: 15px;
-  border: 1px solid #f2f2f2;
-  background: transparent;
-  border-radius: 25px;
-  padding-right: 10px;
+	margin-right: 15px;
+	border: 1px solid #f2f2f2;
+	background: transparent;
+	border-radius: 25px;
+	padding-right: 10px;
 }
 
 .filtres span {
-  font-weight: bold;
-  font-size: 14px;
-  padding: 5px 0;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px 0;
 }
 
 .filtres span i {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-  background: #deebff;
-  margin-right: 7px;
-  font-size: 14px;
-  border-radius: 50%;
-  color: #0065fc;
+	width: 35px;
+	height: 35px;
+	padding: 10px;
+	background: #deebff;
+	margin-right: 7px;
+	font-size: 14px;
+	border-radius: 50%;
+	color: #0065fc;
 }
 
 .info span {
-  font-size: 12px;
-  display: flex;
-  align-items: center;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	font-weight: 300;
 }
 
 .info span i {
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  margin-right: 10px;
-  padding: 5px;
-  border-radius: 50%;
-  border: 1px solid #f2f2f2;
-  background: transparent;
-  font-size: 10px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	margin-right: 10px;
+	padding: 5px;
+	border-radius: 50%;
+	border: 1px solid #f2f2f2;
+	background: transparent;
+	font-size: 10px;
 }
-
-
 
 /**************************** Media queries Tablette *********************************/
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
+	header .logo {
+		padding: 20px 0px;
+	}
 
-  header .logo {
-    padding: 20px 0px;
-  }
-  
-  header nav ul li a:hover {
-    color: #0065fc;
-    border-top: none;
-    border-bottom: 3px solid #0065fc;
-  }
+	header nav ul li a:hover {
+		color: #0065fc;
+		border-top: none;
+		border-bottom: 3px solid #0065fc;
+	}
 
-  .filtres {
-    width: 700px;
-  }
-
+	.filtres {
+		width: 700px;
+	}
 }
 
 /**************************** Media queries Mobile *********************************/
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+	header {
+		flex-direction: column;
+		padding: 0;
+		margin-bottom: 30px;
+	}
 
-  header{
-    flex-direction: column;
-    padding: 0;
-    margin-bottom: 30px;
-  }
+	header .logo img {
+		width: 100px;
+		height: 50px;
+	}
 
-  header .logo img {
-    width: 100px;
-    height: 50px;
-  }
+	.navigation {
+		width: 100%;
+	}
 
-  .navigation {
-    width: 100%;
-  }
-  
-  .navigation ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+	.navigation ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-  .navigation li {
-    width: 100%;
-    margin: 0;
-  }
+	.navigation li {
+		width: 100%;
+		margin: 0;
+	}
 
-  .navigation a {
-    border-bottom: 3px solid lightgrey;
-    display: block;
-    text-align: center;
-    padding: 15px;
-  }
+	.navigation a {
+		border-bottom: 3px solid lightgrey;
+		display: block;
+		text-align: center;
+		padding: 15px;
+	}
 
-  .section-recherche {
-    padding: 0px 20px;
-  }
+	.section-recherche {
+		padding: 0px 20px;
+	}
 
-  .recherche {
-    margin-bottom: 25px;
-  }
+	.recherche {
+		margin-bottom: 25px;
+	}
 
-  .section-recherche h2 {
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
+	.section-recherche h2 {
+		font-size: 25px;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
 
-  .section-recherche p {
-    font-size: 16px;
-    font-weight: 300;
-    margin-bottom: 30px;
-  }
+	.section-recherche p {
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
 
-  form {
-    width: 330px;
-    height: 50px;
-    justify-content: center;
-  }
-  form label i {
-    font-size: 18px;
-    padding: 15px 20px;
-  }
+	form {
+		width: 330px;
+		height: 50px;
+		justify-content: center;
+	}
+	form label i {
+		font-size: 18px;
+		padding: 15px 20px;
+	}
 
-  form input {
-    height: 50px;
-    width: 230px;
-    font-size: 18px;
-  }
+	form input {
+		height: 50px;
+		width: 230px;
+		font-size: 18px;
+	}
 
-  form button {
-    font-size: 15px;
-    padding: 15px 15px;
-  }
+	form button {
+		font-size: 15px;
+		padding: 15px 15px;
+	}
 
-  #search-mobile {
-    display: block;
-    border-radius: 15px;
-  }
+	#search-mobile {
+		display: block;
+		border-radius: 15px;
+	}
 
-  #search-desktop {
-    display: none;
-  }
+	#search-desktop {
+		display: none;
+	}
 
-  .filtres {
-    width: 100%;
-    flex-wrap: wrap;
-  }
+	.filtres {
+		width: 100%;
+		flex-wrap: wrap;
+	}
 
-  .filtres h3 {
-    width: 100%;
-    margin-bottom: 12px;
-  }
+	.filtres h3 {
+		width: 100%;
+		margin-bottom: 12px;
+	}
 
-  .filtres button {
-    margin: 0 15px 15px 0;
-    border: 2px solid #f2f2f2;
-  }
+	.filtres button {
+		margin: 0 15px 15px 0;
+		border: 2px solid #f2f2f2;
+	}
 
-  .filtres span {
-    display: flex;
-    align-items: center;
-    padding: 0;
-  }
+	.filtres span {
+		display: flex;
+		align-items: center;
+		padding: 0;
+	}
 
-  .filtres span i {
-    width: 45px;
-    height: 45px;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;    
-  }
+	.filtres span i {
+		width: 45px;
+		height: 45px;
+		font-size: 16px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20px;
+	}
 
-  .info span {
-    font-size: 16px;
-    font-weight: 300;
-    align-items: start;
-  }
+	.info span {
+		font-size: 16px;
+		align-items: start;
+	}
 
-  #test {
-    width: 20px;
-    height: 20px;
-    font-weight: 700;
-    font-size: 12px;
-    padding: 8px;
-    border: 2px solid #f2f2f2;
-  }
-  
-
+	#test {
+		width: 20px;
+		height: 20px;
+		font-weight: 700;
+		font-size: 12px;
+		padding: 8px;
+		border: 2px solid #f2f2f2;
+	}
 }
