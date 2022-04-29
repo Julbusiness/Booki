@@ -23,10 +23,11 @@ body {
 
 header {
 	width: 100%;
+  max-width: 992px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 35px 40px;
+	padding: 35px 30px;
 }
 
 header .logo img {
@@ -40,7 +41,7 @@ header nav ul {
 }
 
 header nav ul li {
-	margin: 0 15px;
+	margin: 0 10px;
 	font-size: 15px;
 }
 
@@ -53,7 +54,7 @@ header nav ul li a {
 	text-decoration: none;
 	color: var(--text-color);
 	cursor: pointer;
-	padding: 25px 15px;
+	padding: 25px 10px;
 	font-weight: 400;
 }
 
@@ -190,6 +191,7 @@ form button {
 
 .section-double {
   display: flex;
+  align-items: center;
 }
 
 .hebergement, .populaire {
@@ -240,7 +242,7 @@ form button {
 
 .carte-hebergement img {
   width: 160px;
-  height: 55%;
+  height: 65%;
   border-radius: 10px 10px 0 0;
   object-fit: cover;
 }
@@ -255,22 +257,42 @@ form button {
   padding: 0 5px;
 	font-size: 12px;
 	font-weight: 300;
+  width: 100%;
 }
 
 .carte-hebergement button {
   border: none;
-  padding: 0 5px;
-  background: transparent
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
 }
 
 .carte-hebergement span {
   font-size: 8px;
+  color: var(--main-color);
+}
+
+/*Notation*/
+.carte-h1 span:last-child {
   color: var(--third-color);
 }
 
-/* .carte-hebergement i:checked {
-  color: #0065fc;
-} */
+.carte-h3 span:last-child {
+  color: var(--third-color);
+}
+
+.carte-h4 span:nth-child(4), .carte-h4 span:last-child {
+  color: var(--third-color);
+}
+
+.carte-h5 span:last-child {
+  color: var(--third-color);
+}
+
+.carte-hebergement span i {
+  width: 9px;
+}
 
 #affichage {
   width: 100%;
@@ -289,8 +311,8 @@ form button {
 
 .populaire {
   width: 30%;
-  max-width: 290px;
-  margin: 15px 20px 15px 10px;
+  max-width: 300px;
+  margin: 15px 0px;
   height: 450px;
 }
 
@@ -316,7 +338,7 @@ form button {
 .carte-populaire a {
   display: flex;
   color: var(--text-color);
-  width: 200px;
+  width: 220px;
   height: 100px;
   text-decoration: none;
   border: none;
@@ -332,28 +354,40 @@ form button {
 .carte-populaire h4 {
   font-size: 12px;
   font-weight: 700;
-  padding: 5px 0px 5px 5px;
+  padding: 5px 0px 5px 10px;
 }
 
 .carte-populaire p {
-  padding: 0 5px;
+  padding: 0 10px;
 	font-size: 12px;
 	font-weight: 300;
 }
-
+ 
 .carte-populaire button {
   border: none;
-  padding: 0 5px;
-  background: transparent
+  background: transparent;
+  padding: 20px 10px;
 }
 
 .carte-populaire span {
   font-size: 8px;
-  color: var(--third-color);
+  color: var(--main-color);
+}
+
+.carte-populaire span i {
+  width: 5px;
 }
 
 .texte {
   width: 150px;
+}
+
+.carte-p2 span:last-child {
+  color: var(--third-color);
+}
+
+.carte-p3 span:last-child {
+  color: var(--third-color);
 }
 
 
