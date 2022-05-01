@@ -191,11 +191,10 @@ form button {
 
 .section-double {
   display: flex;
-  align-items: center;
 }
 
 .hebergement, .populaire {
-	padding: 20px 20px;
+	padding: 20px;
   background: var(--third-color);
   border-radius: 10px;
   display: flex;
@@ -390,10 +389,128 @@ form button {
   color: var(--third-color);
 }
 
+/**************************** Activités ************************************/
+
+.section-activites {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-activites h2 {
+  width: 100%;
+  margin: 30px 40px 0px;
+}
+.activite {
+  display: flex;
+  width: 100%;
+  max-width: 920px;
+  height: 400px;
+  padding: 20px 0px;
+  margin: 10px 0px 10px 40px;
+}
+
+.carte-activite a:hover {
+  color: var(--main-color);
+}
+
+.carte-activite {
+  border-radius: 10px;
+  width: 215px;
+  height: 360px;
+  display: flex;
+  margin: 0 20px 0 0;
+  border: 1px solid var(--third-color);
+}
+
+.carte-activite a {
+  width: 220px;
+  text-decoration: none;
+  border: none;
+  color: var(--text-color);
+}
+
+.carte-activite img {
+  width: 215px;
+  height: 315px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.double-asymetrique {
+  display: flex;
+  flex-direction: column;
+}
+
+.double-asymetrique .carte-activite:nth-child(1) {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.double-asymetrique .carte-activite:nth-child(1) img {
+  height: 160px;
+}
+
+.double-asymetrique .carte-activite:nth-child(2) {
+  height: 140px;
+}
+
+.double-asymetrique .carte-activite:nth-child(2) img {
+  height: 100px;
+}
+
+.double-symetrique .carte-activite {
+  height: 170px;
+  margin-bottom: 20px;
+}
+
+.double-symetrique .carte-activite img {
+  height: 120px;
+}
+
+.section-activites h4 {
+  font-size: 12px;
+	font-weight: 700;
+  padding: 10px 10px;
+}
+
+/**************************** Footer ************************************/
+
+footer {
+  background: var(--third-color);
+  width: 100%;
+  height: 180px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0 40px;
+  margin-top: 20px;
+}
+
+footer h3 {
+  font-size: 16px;
+}
+
+footer div {
+  width: 400px;
+}
+
+footer ul {
+  padding: 10px 0;
+}
+
+footer ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+
+
 
 /************************* Media queries Tablette *************************/
 
-@media (max-width: 992px) {
+/* @media (max-width: 991px) {
+
 	header .logo {
 		padding: 20px 0px;
 	}
@@ -407,11 +524,29 @@ form button {
 	.filtres {
 		width: 700px;
 	}
-}
+
+  .section-double {
+    width: 991px;
+  }
+
+  .hebergement {
+    width: 70%;
+    max-width: 410px;
+    height: 610px;
+    margin: 15px 20px 10px 20px;
+  }
+
+  .populaire {
+    width: 30%;
+    max-width: 300px;
+    margin: 15px 0px;
+    height: 610px;
+  }
+} */
 
 /************************* Media queries Mobile ****************************/
 
-@media (max-width: 768px) {
+/* @media (max-width: 767px) {
 	header {
 		flex-direction: column;
 		padding: 0;
@@ -421,10 +556,6 @@ form button {
 	header .logo img {
 		width: 100px;
 		height: 50px;
-	}
-
-	.navigation {
-		width: 100%;
 	}
 
 	.navigation ul {
@@ -538,4 +669,4 @@ form button {
 		padding: 8px;
 		border: 2px solid var(--third-color);
 	}
-}
+} */
