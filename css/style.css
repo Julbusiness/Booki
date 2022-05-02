@@ -20,7 +20,7 @@ body {
 	font-family: "Raleway", sans-serif;
 	max-width: 992px;
 	margin: auto;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 /******************************* Header ***********************************/
@@ -539,14 +539,16 @@ footer a {
 	}
 
 	.section-double {
-		width: 960px;
+		width: 100%;
+    max-width: 748px;
+    margin: auto;
 	}
 
 	.hebergement {
 		width: 70%;
 		max-width: 410px;
 		height: 600px;
-		margin: 15px 30px 10px 20px;
+    margin: auto;
 	}
 
   .hebergement h2 {
@@ -554,17 +556,18 @@ footer a {
   }
 
 	.populaire {
-		width: 30%;
-		max-width: 300px;
-		margin: 15px 0px;
+		width: 40%;
+		max-width: 320px;
+    margin: auto;
 		height: 600px;
     padding: 10px;
 	}
 
 	.activite {
 		flex-wrap: wrap;
+    max-width: 738px;
 		height: auto;
-    margin: 20px;
+    margin-left: 20px;
 	}
 
 	.activite div {
@@ -572,16 +575,17 @@ footer a {
 	}
 
   .double-asymetrique {
-    padding: 0 20px;
+    margin: auto;
   }
 
 	.double-symetrique {
 		display: flex;
 	}
 
-  .double-symetrique .carte-activite:nth-child(2) {
-    margin: 0 20px;
-  }
+ .double-symetrique .carte-activite:nth-child(2) {
+		margin: 0 20px;
+	}
+
 }
 
 /************************* Media queries Mobile ****************************/
