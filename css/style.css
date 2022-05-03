@@ -21,6 +21,7 @@ body {
 	font-family: "Raleway", sans-serif;
 	max-width: 992px;
 	margin: auto;
+	overflow-x: hidden;
 }
 
 /******************************* Header ***********************************/
@@ -57,7 +58,7 @@ header a {
 	text-decoration: none;
 	color: var(--text-color);
 	cursor: pointer;
-	padding: 25px 10px;
+	padding: 5px 10px;
 	font-weight: 400;
 }
 
@@ -74,7 +75,7 @@ header a:hover {
 	height: 200px;
 }
 
-h2 {
+h1 {
 	margin-bottom: 5px;
 	font-size: 15px;
 	font-weight: 700;
@@ -135,7 +136,7 @@ form button {
 	flex-wrap: wrap;
 }
 
-.filtres h3 {
+.filtres h2 {
 	padding-right: 10px;
 	font-size: 15px;
 	font-weight: bold;
@@ -211,6 +212,7 @@ form button {
 .populaire h2 {
 	width: 100%;
 	padding-left: 15px;
+	font-size: 15px;
 }
 
 .carte-hebergement a:hover,
@@ -255,7 +257,7 @@ form button {
 	object-fit: cover;
 }
 
-.carte-hebergement h4 {
+.carte-hebergement h3 {
 	font-size: 12px;
 	font-weight: 700;
 	padding: 5px 5px 0 5px;
@@ -268,7 +270,7 @@ form button {
 	width: 100%;
 }
 
-.carte-hebergement button {
+.carte-hebergement div {
 	border: none;
 	background: transparent;
 	display: flex;
@@ -360,7 +362,7 @@ form button {
 	object-fit: cover;
 }
 
-.carte-populaire h4 {
+.carte-populaire h3 {
 	font-size: 12px;
 	font-weight: 700;
 	padding: 5px 0px 5px 10px;
@@ -372,7 +374,7 @@ form button {
 	font-weight: 300;
 }
 
-.carte-populaire button {
+.carte-populaire .texte div {
 	border: none;
 	background: transparent;
 	padding: 20px 10px;
@@ -408,6 +410,7 @@ form button {
 
 .section-activites h2 {
 	width: 100%;
+	font-size: 15px;
 	margin: 30px 40px 0px;
 }
 .activite {
@@ -477,7 +480,7 @@ form button {
 	height: 120px;
 }
 
-.section-activites h4 {
+.section-activites h3 {
 	font-size: 12px;
 	font-weight: 700;
 	padding: 10px 10px;
@@ -496,7 +499,7 @@ footer {
 	margin-top: 40px;
 }
 
-footer h3 {
+footer h4 {
 	font-size: 16px;
 }
 
@@ -640,7 +643,7 @@ footer a {
 		margin: 25px 0;
 	}
 
-	.section-recherche h2 {
+	.section-recherche h1 {
 		font-size: 24px;
 		font-weight: 600;
 		margin-bottom: 15px;
@@ -701,7 +704,7 @@ footer a {
     margin: auto;
 	}
 
-	.filtres h3 {
+	.filtres h2 {
 		width: 100%;
 		font-size: 18px;
     margin: 8px auto;
@@ -807,7 +810,7 @@ footer a {
     width: 100%;
   }
 
-  .carte-populaire h4 {
+  .carte-populaire h3 {
     font-size: 16px;
     padding: 15px;
   }
@@ -859,7 +862,7 @@ footer a {
 		padding: 1px;
 	}
 
-	.carte-hebergement h4 {
+	.carte-hebergement h3 {
 		font-size: 16px;
 		padding: 5px 10px;
 	}
@@ -927,7 +930,7 @@ footer a {
 		margin: auto;
 	}
 
-	.carte-activite h4 {
+	.carte-activite h3 {
 		font-size: 16px;
 		margin: 5px 10px;
 	}
