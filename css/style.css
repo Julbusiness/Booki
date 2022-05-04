@@ -989,14 +989,11 @@ footer a {
 	footer div {
 		width: 100%;
 		padding: 10px 0;
+		height: auto;
 	}
 
 	footer ul {
 		padding: 15px 0;
-	}
-
-	footer li {
-		padding: 5px 0;
 	}
 
 	footer a {
